@@ -19,7 +19,7 @@ font-weight: 400;
 
  }
  .principal {
-    background-image: url(img/background.png);
+    background-image: url(img/combo.png);
     background-repeat: no-repeat;
     background-size: contain;
 
@@ -48,5 +48,5 @@ font-weight: 400;
 .container__titulo{
     font-size: 28px;
     font-weight: 700;
-    
+
 }
