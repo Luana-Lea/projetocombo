@@ -3,6 +3,8 @@
     --cinza-sedundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
+    --fonte-principal:'inter';
+    --botao-azul-efeito: #167BF7;
 
 }
  body{
@@ -19,7 +21,7 @@ font-weight: 400;
 
  }
  .principal {
-    background-image: url("Background.png");
+    background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
@@ -34,7 +36,7 @@ font-weight: 400;
 }
 .container__botao{
     background-color: var(--botao-azul);
-  border-radius: 5px;
+  border-radius: 3px;
   padding: 1em;
   color: var(--branco-principal);
   display: block;
@@ -46,7 +48,7 @@ font-weight: 400;
     border: 2px solid var(--branco-principal);
 }
 .container__aviso{
-    font-size: 28px;
+    font-size: 20px;
     color: var(--cinza-sedundario);
 }
 .container__titulo{
@@ -61,6 +63,7 @@ font-weight: 400;
 .container__caixa{
 margin:  0 6em;
 }
+
  
 .segundario__imagem{
     width: 80%;
@@ -70,6 +73,7 @@ margin:  0 6em;
     margin: 0 10em;
 }
 
+
 .descricao__titulo {
     font-weight: 700;
     font-size: 48px;
@@ -77,9 +81,11 @@ margin:  0 6em;
     margin-bottom: 0.1em;
 }
 
+
 .descricao__texto{
     color: var(--cinza-sedundario);
 }
+
 
 .seundario__botao {
     display: inline-block;
@@ -88,4 +94,50 @@ margin:  0 6em;
 
 .container__descricao{
     padding: 2em;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+     margin: 5em 0;
+}
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__titulo{
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.lista__link{
+    font-size: 20px;
+    margin: 0 1em 0 1em;
+    color: white;
+}
+
+.rodape__texto{
+    text-align: center;
+    color: var(--cinza-sedundario);
+    margin: 3em 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.rodape{
+    text-align: center;
+}
+
+.rodapelogo{
+    margin: 1em 0 5em 0;
 }
