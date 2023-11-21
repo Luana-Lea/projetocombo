@@ -161,13 +161,16 @@ margin:  0 6em;
 }
 
 
-.descricao__titulo {
+.descricao__titulo{
     font-weight: 700;
     font-size: 48px;
-    color: var(--branco-principal);
+    color: var(--branco-principal);}
+
 .container__descricao{
     padding: 2em;
 }
+
+
 
 .dispositivos__lista {
     display: flex;
@@ -222,7 +225,7 @@ a{
 }
 
 .rodape__logo{
-    margin: 1em 0 5em 0;
+    margin: 1em 0 5em 0;}
     .segundario {
         align-items: center;
         margin: 0 10em;
